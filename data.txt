@@ -1,0 +1,5110 @@
+﻿{
+    "StopNedeni": [
+        {
+            "TagName": "All_Alarms",
+            "Address": "M13436",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Alarm_Stop_Summary"
+        },
+        {
+            "TagName": "Machine_Stop_001",
+            "Address": "M12001",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BOOSTER_FAN_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_002",
+            "Address": "M12002",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DIRECT_FIBERIZER_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_003",
+            "Address": "M12003",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PROCESS_VACCUME_FAN_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_004",
+            "Address": "M12004",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "No1_HIGH_PRESSURE_PROCESS_FAN_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_005",
+            "Address": "M12005",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_CUTTER_FAN_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_006",
+            "Address": "M12006",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "No1_HIGH_PRESSURE_FAN_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_007",
+            "Address": "M12007",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "No2_HIGH_PRESSURE_FAN_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_008",
+            "Address": "M12008",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "REJECT_FAN_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_009",
+            "Address": "M12009",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FLUFF_FOMER_FAN_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_010",
+            "Address": "M12010",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DUST_FILTER_FAN_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_011",
+            "Address": "M12011",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DUST_FILTER_NOZZLE_FAN_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_012",
+            "Address": "M12012",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "No2_HIGH_PRESSURE_PROCESS_FAN_INV_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_013",
+            "Address": "M12013",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DUST_FILTER_NOZZLE_FAN_SOFTSTARTER_RUN_ERROR"
+        },
+        {
+            "TagName": "Machine_Stop_025",
+            "Address": "M12025",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Filtter_AuxPower_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_026",
+            "Address": "M12026",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Drum_Drive_Over_Load"
+        },
+        {
+            "TagName": "Machine_Stop_027",
+            "Address": "M12027",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ED_VAN_Over_Load"
+        },
+        {
+            "TagName": "Machine_Stop_028",
+            "Address": "M12028",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Drum_Drive_MC_Anser_Alarm"
+        },
+        {
+            "TagName": "Machine_Stop_029",
+            "Address": "M12029",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ED_VAN_MC_Anser_Alarm"
+        },
+        {
+            "TagName": "Machine_Stop_030",
+            "Address": "M12030",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Differential_pressure_switch_ON"
+        },
+        {
+            "TagName": "Machine_Stop_033",
+            "Address": "M12033",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FIBERIZER_BEARING_OP_TEMP_HIGH_ERROR"
+        },
+        {
+            "TagName": "Machine_Stop_034",
+            "Address": "M12034",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FIBERIZER_BEARiNG_DR_TEMP_HIGH_ERROR"
+        },
+        {
+            "TagName": "Machine_Stop_035",
+            "Address": "M12035",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DIRECT_FIBERIZER_MOTOR_AXIS_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_050",
+            "Address": "M12050",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_A2"
+        },
+        {
+            "TagName": "Machine_Stop_051",
+            "Address": "M12051",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_B"
+        },
+        {
+            "TagName": "Machine_Stop_052",
+            "Address": "M12052",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_C"
+        },
+        {
+            "TagName": "Machine_Stop_053",
+            "Address": "M12053",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_D"
+        },
+        {
+            "TagName": "Machine_Stop_054",
+            "Address": "M12054",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_E"
+        },
+        {
+            "TagName": "Machine_Stop_055",
+            "Address": "M12055",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_F"
+        },
+        {
+            "TagName": "Machine_Stop_056",
+            "Address": "M12056",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_G"
+        },
+        {
+            "TagName": "Machine_Stop_057",
+            "Address": "M12057",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_COP"
+        },
+        {
+            "TagName": "Machine_Stop_058",
+            "Address": "M12058",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_H1"
+        },
+        {
+            "TagName": "Machine_Stop_059",
+            "Address": "M12059",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_i"
+        },
+        {
+            "TagName": "Machine_Stop_060",
+            "Address": "M12060",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_J"
+        },
+        {
+            "TagName": "Machine_Stop_061",
+            "Address": "M12061",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_K"
+        },
+        {
+            "TagName": "Machine_Stop_062",
+            "Address": "M12062",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_L"
+        },
+        {
+            "TagName": "Machine_Stop_063",
+            "Address": "M12063",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_M"
+        },
+        {
+            "TagName": "Machine_Stop_064",
+            "Address": "M12064",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_N"
+        },
+        {
+            "TagName": "Machine_Stop_065",
+            "Address": "M12065",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_O"
+        },
+        {
+            "TagName": "Machine_Stop_066",
+            "Address": "M12066",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_C1"
+        },
+        {
+            "TagName": "Machine_Stop_067",
+            "Address": "M12067",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_LP_C2"
+        },
+        {
+            "TagName": "Machine_Stop_080",
+            "Address": "M12080",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "EMERGENCY_STOP_SAFETY_DIRECT"
+        },
+        {
+            "TagName": "Machine_Stop_081",
+            "Address": "M12081",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LIFE_LINE_SWITCH_OP_1"
+        },
+        {
+            "TagName": "Machine_Stop_082",
+            "Address": "M12082",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LIFE_LINE_SWITCH_OP_2"
+        },
+        {
+            "TagName": "Machine_Stop_083",
+            "Address": "M12083",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LIFE_LINE_SWITCH_DR_1"
+        },
+        {
+            "TagName": "Machine_Stop_084",
+            "Address": "M12084",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LIFE_LINE_SWITCH_DR_2"
+        },
+        {
+            "TagName": "Machine_Stop_085",
+            "Address": "M12085",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "STACKER_BAGGER_STOP"
+        },
+        {
+            "TagName": "Machine_Stop_086",
+            "Address": "M12086",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LOKAL_SALTER_1"
+        },
+        {
+            "TagName": "Machine_Stop_087",
+            "Address": "M12087",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LOKAL_SALTER_2"
+        },
+        {
+            "TagName": "Machine_Stop_088",
+            "Address": "M12088",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LOKAL_SALTER_3"
+        },
+        {
+            "TagName": "Machine_Stop_089",
+            "Address": "M12089",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTEAR_BACK_EAR_KAMERA_CALISMIYOR"
+        },
+        {
+            "TagName": "Machine_Stop_090",
+            "Address": "M12090",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "AQL_KAMERA_CALISMIYOR"
+        },
+        {
+            "TagName": "Machine_Stop_097",
+            "Address": "M12097",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_A"
+        },
+        {
+            "TagName": "Machine_Stop_098",
+            "Address": "M12098",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_A"
+        },
+        {
+            "TagName": "Machine_Stop_099",
+            "Address": "M12099",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_B"
+        },
+        {
+            "TagName": "Machine_Stop_100",
+            "Address": "M12100",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_B"
+        },
+        {
+            "TagName": "Machine_Stop_101",
+            "Address": "M12101",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_C"
+        },
+        {
+            "TagName": "Machine_Stop_102",
+            "Address": "M12102",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_C"
+        },
+        {
+            "TagName": "Machine_Stop_103",
+            "Address": "M12103",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_D"
+        },
+        {
+            "TagName": "Machine_Stop_104",
+            "Address": "M12104",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_D"
+        },
+        {
+            "TagName": "Machine_Stop_105",
+            "Address": "M12105",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_E"
+        },
+        {
+            "TagName": "Machine_Stop_106",
+            "Address": "M12106",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_E"
+        },
+        {
+            "TagName": "Machine_Stop_107",
+            "Address": "M12107",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_F"
+        },
+        {
+            "TagName": "Machine_Stop_108",
+            "Address": "M12108",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_F"
+        },
+        {
+            "TagName": "Machine_Stop_109",
+            "Address": "M12109",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_G"
+        },
+        {
+            "TagName": "Machine_Stop_110",
+            "Address": "M12110",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_G"
+        },
+        {
+            "TagName": "Machine_Stop_111",
+            "Address": "M12111",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_H"
+        },
+        {
+            "TagName": "Machine_Stop_112",
+            "Address": "M12112",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_H"
+        },
+        {
+            "TagName": "Machine_Stop_113",
+            "Address": "M12113",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_I"
+        },
+        {
+            "TagName": "Machine_Stop_114",
+            "Address": "M12114",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_J"
+        },
+        {
+            "TagName": "Machine_Stop_115",
+            "Address": "M12115",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_K"
+        },
+        {
+            "TagName": "Machine_Stop_116",
+            "Address": "M12116",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_L"
+        },
+        {
+            "TagName": "Machine_Stop_117",
+            "Address": "M12117",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_M"
+        },
+        {
+            "TagName": "Machine_Stop_118",
+            "Address": "M12118",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_N"
+        },
+        {
+            "TagName": "Machine_Stop_119",
+            "Address": "M12119",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_LS_O"
+        },
+        {
+            "TagName": "Machine_Stop_120",
+            "Address": "M12120",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_LS_O"
+        },
+        {
+            "TagName": "Machine_Stop_124",
+            "Address": "M12124",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SAFETY_DOOR_OP_DR_BYPASS_MP_KEY"
+        },
+        {
+            "TagName": "Machine_Stop_127",
+            "Address": "M12127",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_OP_SAFETY_DIRECT"
+        },
+        {
+            "TagName": "Machine_Stop_128",
+            "Address": "M12128",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DOOR_SWITCH_OPEN_DR_SAFETY_DIRECT"
+        },
+        {
+            "TagName": "Machine_Stop_129",
+            "Address": "M12129",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_HEAT_SEAL_UPPER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_130",
+            "Address": "M12130",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_HEAT_SEAL_LOWER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_131",
+            "Address": "M12131",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_UPPER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_132",
+            "Address": "M12132",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_LOWER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_133",
+            "Address": "M12133",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_UPPER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_134",
+            "Address": "M12134",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_LOWER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_135",
+            "Address": "M12135",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_UPPER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_136",
+            "Address": "M12136",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_LOWER_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_137",
+            "Address": "M12137",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "WEB_GUIDE_CP_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_138",
+            "Address": "M12138",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOYAFUATSU_DOOR_SWITCH_OPEN"
+        },
+        {
+            "TagName": "Machine_Stop_145",
+            "Address": "M12145",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "AUX_MOTOR_READY_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_146",
+            "Address": "M12146",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SYNCHRONOUS_ENC_ROTATING_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_147",
+            "Address": "M12147",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ELECTRO_CAM_ROTATING_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_148",
+            "Address": "M12148",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ELECTRO_CAM_ROTATING_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_149",
+            "Address": "M12149",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ELECTRO_CAM_SIZE_CHANGE_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_177",
+            "Address": "M12177",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PNEUMATIC_PRESSURE_SWITCH_UPSTREAM"
+        },
+        {
+            "TagName": "Machine_Stop_178",
+            "Address": "M12178",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PNEUMATIC_PRESSURE_SWITCH_DOWNSTREAM"
+        },
+        {
+            "TagName": "Machine_Stop_179",
+            "Address": "M12179",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MAT_CUTTER_HOME_SENSORCALISMIYOR"
+        },
+        {
+            "TagName": "Machine_Stop_209",
+            "Address": "M12209",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_210",
+            "Address": "M12210",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TISSUE_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_211",
+            "Address": "M12211",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_212",
+            "Address": "M12212",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONT_EAR_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_213",
+            "Address": "M12213",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_214",
+            "Address": "M12214",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACQUISITION_LAYER_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_215",
+            "Address": "M12215",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_216",
+            "Address": "M12216",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOP_SHEET_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_217",
+            "Address": "M12217",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_NW_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_219",
+            "Address": "M12219",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_OP_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_220",
+            "Address": "M12220",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_DR_SPLICE_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_221",
+            "Address": "M12221",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LOSYON_AKIS_YOK"
+        },
+        {
+            "TagName": "Machine_Stop_225",
+            "Address": "M12225",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_A1"
+        },
+        {
+            "TagName": "Machine_Stop_226",
+            "Address": "M12226",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_A2"
+        },
+        {
+            "TagName": "Machine_Stop_227",
+            "Address": "M12227",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_B"
+        },
+        {
+            "TagName": "Machine_Stop_228",
+            "Address": "M12228",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_C"
+        },
+        {
+            "TagName": "Machine_Stop_229",
+            "Address": "M12229",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_D"
+        },
+        {
+            "TagName": "Machine_Stop_230",
+            "Address": "M12230",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_E"
+        },
+        {
+            "TagName": "Machine_Stop_231",
+            "Address": "M12231",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_F"
+        },
+        {
+            "TagName": "Machine_Stop_232",
+            "Address": "M12232",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_LP_G"
+        },
+        {
+            "TagName": "Machine_Stop_233",
+            "Address": "M12233",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NORMAL_STOP_COP"
+        },
+        {
+            "TagName": "Machine_Stop_234",
+            "Address": "M12234",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FIBERIZER_PARALAMA_LOKAL_SALTER_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_235",
+            "Address": "M12235",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "GUARDLAR_ACIK_NORMAL_STOP"
+        },
+        {
+            "TagName": "Machine_Stop_257",
+            "Address": "M12257",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MAIN_PLC_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_258",
+            "Address": "M12258",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "QC_PLC_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_259",
+            "Address": "M12259",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MOTION_PLC_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_260",
+            "Address": "M12260",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MOTION_A_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_261",
+            "Address": "M12261",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MOTION_B_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_262",
+            "Address": "M12262",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MOTION_C_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_263",
+            "Address": "M12263",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CC_LINK_IE_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_264",
+            "Address": "M12264",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CC_LINK_FAULT"
+        },
+        {
+            "TagName": "Machine_Stop_270",
+            "Address": "M12270",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA_HOME_POSITION_ERROR"
+        },
+        {
+            "TagName": "Machine_Stop_271",
+            "Address": "M12271",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MOTION_ALL_AXIS_SERVO_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_272",
+            "Address": "M12272",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MOTION_NOT_IN_VIRTUAL_MODE"
+        },
+        {
+            "TagName": "Machine_Stop_273",
+            "Address": "M12273",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA01_FAULT_FORMING_DRUM"
+        },
+        {
+            "TagName": "Machine_Stop_274",
+            "Address": "M12274",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA02_FAULT_PATTERN_PRESS_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_275",
+            "Address": "M12275",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA03_FAULT_MAT_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_276",
+            "Address": "M12276",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA04_FAULT_END_SIDE_SEAL"
+        },
+        {
+            "TagName": "Machine_Stop_277",
+            "Address": "M12277",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA05_FAULT_FRONT_EAR_DIE_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_278",
+            "Address": "M12278",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA06_FAULT_BACK_EAR_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_279",
+            "Address": "M12279",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA07_FAULT_BACK_EAR_REPITCH_DRUM"
+        },
+        {
+            "TagName": "Machine_Stop_280",
+            "Address": "M12280",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA08_FAULT_BACK_EAR_REPITCH_EXTENDING_DRUM"
+        },
+        {
+            "TagName": "Machine_Stop_281",
+            "Address": "M12281",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA09_FAULT_BACK_EAR_TRANSFER_DRUM"
+        },
+        {
+            "TagName": "Machine_Stop_282",
+            "Address": "M12282",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA10_FAULT_FRONTAL_TAPE_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_283",
+            "Address": "M12283",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA11_FAULT_FRONT_EAR_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_284",
+            "Address": "M12284",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA12_FAULT_CUFF_END_HEAT_SEAL"
+        },
+        {
+            "TagName": "Machine_Stop_285",
+            "Address": "M12285",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA13_FAULT_ACQUISITION_LAYER_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_286",
+            "Address": "M12286",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA14_FAULT_FINAL_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_287",
+            "Address": "M12287",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA15_FAULT_IMPELLER"
+        },
+        {
+            "TagName": "Machine_Stop_288",
+            "Address": "M12288",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA16_FAULT_ENCODER_UNIT"
+        },
+        {
+            "TagName": "Machine_Stop_291",
+            "Address": "M12291",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA19_FAULT_TISSUE_NIP_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_292",
+            "Address": "M12292",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA20_FAULT_CHILL_DRUM"
+        },
+        {
+            "TagName": "Machine_Stop_293",
+            "Address": "M12293",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA21_FAULT_FRONTAL_TAPE_INFEED_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_294",
+            "Address": "M12294",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA22_FAULT_BACK_SHEET_FEED_ROLL_2"
+        },
+        {
+            "TagName": "Machine_Stop_297",
+            "Address": "M12297",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA25_FAULT_FASTENING_TAPE_CUTTER_DR"
+        },
+        {
+            "TagName": "Machine_Stop_298",
+            "Address": "M12298",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA26_FAULT_FASTENING_TAPE_HEAT_SEAL"
+        },
+        {
+            "TagName": "Machine_Stop_299",
+            "Address": "M12299",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA27_FAULT_FASTENING_TAPE_CUTTER_OP"
+        },
+        {
+            "TagName": "Machine_Stop_301",
+            "Address": "M12301",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA29_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_302",
+            "Address": "M12302",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA30_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_303",
+            "Address": "M12303",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA31_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_304",
+            "Address": "M12304",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA32_FAULT_VIRTUAL_MASTER_AXIS"
+        },
+        {
+            "TagName": "Machine_Stop_305",
+            "Address": "M12305",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB01_FAULT_TISSUE_FEED_ROLL_2"
+        },
+        {
+            "TagName": "Machine_Stop_306",
+            "Address": "M12306",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB02_FAULT_TISSUE_LAMINATION_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_307",
+            "Address": "M12307",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB03_FAULT_PRESS_ROLL_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_308",
+            "Address": "M12308",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB04_FAULT_TISSUE_FEED_ROLL_1"
+        },
+        {
+            "TagName": "Machine_Stop_309",
+            "Address": "M12309",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB05_FAULT_BACK_EAR_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_310",
+            "Address": "M12310",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB06_FAULT_FASTENING_TAPE_FOLDING_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_311",
+            "Address": "M12311",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB07_FAULT_PAD_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_312",
+            "Address": "M12312",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB08_FAULT_CONVEYOR_BEFORE_MAT_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_313",
+            "Address": "M12313",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB09_FAULT_PULP_FEED_UPPER"
+        },
+        {
+            "TagName": "Machine_Stop_314",
+            "Address": "M12314",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB10_FAULT_PULP_FEED_LOWER"
+        },
+        {
+            "TagName": "Machine_Stop_315",
+            "Address": "M12315",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB11_FAULT_FASTENING_TAPE_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_316",
+            "Address": "M12316",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB12_FAULT_FRONT_EAR_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_317",
+            "Address": "M12317",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB13_FAULT_LEG_ELASTIC_HANGER"
+        },
+        {
+            "TagName": "Machine_Stop_318",
+            "Address": "M12318",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB14_FAULT_CONVEYOR_AFTER_MAT_CUTTER"
+        },
+        {
+            "TagName": "Machine_Stop_319",
+            "Address": "M12319",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB15_FAULT_TOP_SHEET_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_320",
+            "Address": "M12320",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB16_FAULT_FRONT_EAR_INFEED_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_321",
+            "Address": "M12321",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB17_FAULT_BACK_EAR_INFEED_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_322",
+            "Address": "M12322",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB18_FAULT_COMBINING_DRUM"
+        },
+        {
+            "TagName": "Machine_Stop_323",
+            "Address": "M12323",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB19_FAULT_FRONTAL_TAPE_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_324",
+            "Address": "M12324",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB20_FAULT_ACQUISITION_LAYER_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_325",
+            "Address": "M12325",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB21_FAULT_CUFF_ATTACH_HEAT_SEAL"
+        },
+        {
+            "TagName": "Machine_Stop_326",
+            "Address": "M12326",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB22_FAULT_TRANSFER_DRUM"
+        },
+        {
+            "TagName": "Machine_Stop_327",
+            "Address": "M12327",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB23_FAULT_FOLDING_CONVEYER_OP"
+        },
+        {
+            "TagName": "Machine_Stop_328",
+            "Address": "M12328",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB24_FAULT_BACK_SHEET_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_333",
+            "Address": "M12333",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB29_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_334",
+            "Address": "M12334",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB30_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_335",
+            "Address": "M12335",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB31_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_336",
+            "Address": "M12336",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMB32_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_337",
+            "Address": "M12337",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC01_FAULT_BACK_SHEET_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_338",
+            "Address": "M12338",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC02_FAULT_FOLDING_CONVEYER_DR"
+        },
+        {
+            "TagName": "Machine_Stop_339",
+            "Address": "M12339",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC03_FAULT_ACQUISITION_LAYER_INFEED_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_340",
+            "Address": "M12340",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC04_FAULT_BELT_PRESS"
+        },
+        {
+            "TagName": "Machine_Stop_341",
+            "Address": "M12341",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC05_FAULT_CUFF_FOLDING_HEAT_SEAL"
+        },
+        {
+            "TagName": "Machine_Stop_342",
+            "Address": "M12342",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC06_FAULT_TOP_SHEET_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_343",
+            "Address": "M12343",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC07_FAULT_CUFF_NW_FEED_ROLL_1"
+        },
+        {
+            "TagName": "Machine_Stop_344",
+            "Address": "M12344",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC08_FAULT_CUFF_NW_FEED_ROLL_2"
+        },
+        {
+            "TagName": "Machine_Stop_345",
+            "Address": "M12345",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC09_FAULT_REJECT_CONVEYOR"
+        },
+        {
+            "TagName": "Machine_Stop_353",
+            "Address": "M12353",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC17_FAULT_TISSUE_FEED_ROLL"
+        },
+        {
+            "TagName": "Machine_Stop_354",
+            "Address": "M12354",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC18_FAULT_TISSUE_SLITTER"
+        },
+        {
+            "TagName": "Machine_Stop_355",
+            "Address": "M12355",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC19_FAULT_TISSUE_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_356",
+            "Address": "M12356",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC20_FAULT_BACK_EAR_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_357",
+            "Address": "M12357",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC21_FAULT_FRONT_EAR_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_358",
+            "Address": "M12358",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC22_FAULT_FRONTAL_TAPE_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_359",
+            "Address": "M12359",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC23_FAULT_ACQUISITION_LAYER_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_360",
+            "Address": "M12360",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC24_FAULT_LAMINATED_BACK_SHEET_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_361",
+            "Address": "M12361",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC25_FAULT_BACK_SHEET_FEED_ROLL_3"
+        },
+        {
+            "TagName": "Machine_Stop_362",
+            "Address": "M12362",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC26_FAULT_TOP_SHEET_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_363",
+            "Address": "M12363",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC27_FAULT_CUFF_NW_CORE_DRIVE"
+        },
+        {
+            "TagName": "Machine_Stop_365",
+            "Address": "M12365",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC29_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_366",
+            "Address": "M12366",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC30_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_367",
+            "Address": "M12367",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC31_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_368",
+            "Address": "M12368",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMC32_FAULT_NO_USE"
+        },
+        {
+            "TagName": "Machine_Stop_369",
+            "Address": "M12369",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA25_RES_FAULT_FASTENING_TAPE_CUTTER_DR_RESISTANCE"
+        },
+        {
+            "TagName": "Machine_Stop_370",
+            "Address": "M12370",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA26_RES_FAULT_FASTENING_TAPE_HEAT_SEAL_RESISTANCE"
+        },
+        {
+            "TagName": "Machine_Stop_371",
+            "Address": "M12371",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA27_RES_FAULT_FASTENING_TAPE_CUTTER_OP_RESISTANCE"
+        },
+        {
+            "TagName": "Machine_Stop_401",
+            "Address": "M12401",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_OP_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Machine_Stop_402",
+            "Address": "M12402",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_DR_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Machine_Stop_403",
+            "Address": "M12403",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_OP_MISS_FOLDING"
+        },
+        {
+            "TagName": "Machine_Stop_404",
+            "Address": "M12404",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_DR_MISS_FOLDING"
+        },
+        {
+            "TagName": "Machine_Stop_405",
+            "Address": "M12405",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_OP_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Machine_Stop_406",
+            "Address": "M12406",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_DR_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Machine_Stop_407",
+            "Address": "M12407",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ABSORBENT_CUT_DETECT"
+        },
+        {
+            "TagName": "Machine_Stop_408",
+            "Address": "M12408",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Machine_Stop_410",
+            "Address": "M12410",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FIRST_FOLDING"
+        },
+        {
+            "TagName": "Machine_Stop_411",
+            "Address": "M12411",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SECOND_FOLDING"
+        },
+        {
+            "TagName": "Machine_Stop_412",
+            "Address": "M12412",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACQUISITION_LAYER_FRONT_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Machine_Stop_413",
+            "Address": "M12413",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACQUISITION_LAYER_BACK_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Machine_Stop_417",
+            "Address": "M12417",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_HEAT_SEAL_UPPER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_418",
+            "Address": "M12418",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_HEAT_SEAL_LOWER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_419",
+            "Address": "M12419",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_UPPER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_420",
+            "Address": "M12420",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_LOWER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_421",
+            "Address": "M12421",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_UPPER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_422",
+            "Address": "M12422",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_LOWER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_423",
+            "Address": "M12423",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_UPPER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_424",
+            "Address": "M12424",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_LOWER_Temperature_abnormality"
+        },
+        {
+            "TagName": "Machine_Stop_425",
+            "Address": "M12425",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_HEAT_SEAL_UPPER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_426",
+            "Address": "M12426",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_HEAT_SEAL_LOWER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_427",
+            "Address": "M12427",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_UPPER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_428",
+            "Address": "M12428",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_LOWER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_429",
+            "Address": "M12429",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_UPPER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_430",
+            "Address": "M12430",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_LOWER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_431",
+            "Address": "M12431",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_UPPER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_432",
+            "Address": "M12432",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_LOWER_Disconnection"
+        },
+        {
+            "TagName": "Machine_Stop_449",
+            "Address": "M12449",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_RUN_OUT_UPPER"
+        },
+        {
+            "TagName": "Machine_Stop_450",
+            "Address": "M12450",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_RUN_OUT_LOWER"
+        },
+        {
+            "TagName": "Machine_Stop_451",
+            "Address": "M12451",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TISSUE_RUN_OUT"
+        },
+        {
+            "TagName": "Machine_Stop_453",
+            "Address": "M12453",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_RUN_OUT_2"
+        },
+        {
+            "TagName": "Machine_Stop_454",
+            "Address": "M12454",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONT_EAR_RUN_OUT_2"
+        },
+        {
+            "TagName": "Machine_Stop_455",
+            "Address": "M12455",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENINIG_TAPE_OP_RUN_OUT"
+        },
+        {
+            "TagName": "Machine_Stop_456",
+            "Address": "M12456",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENINIG_TAPE_DR_RUN_OUT"
+        },
+        {
+            "TagName": "Machine_Stop_457",
+            "Address": "M12457",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LEG_ELASTIC_RUN_OUT_OP"
+        },
+        {
+            "TagName": "Machine_Stop_458",
+            "Address": "M12458",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BTSR_LEG_ELASTIC_BACAK_ELASTiK_KOPTU"
+        },
+        {
+            "TagName": "Machine_Stop_459",
+            "Address": "M12459",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_RUN_OUT_2"
+        },
+        {
+            "TagName": "Machine_Stop_460",
+            "Address": "M12460",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACQUISITION_LAYER_RUN_OUT_2"
+        },
+        {
+            "TagName": "Machine_Stop_461",
+            "Address": "M12461",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_RUN_OUT_2"
+        },
+        {
+            "TagName": "Machine_Stop_462",
+            "Address": "M12462",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BTSR_CUFF_ELASTIC_BARiYER_ELASTiK_KOPTU"
+        },
+        {
+            "TagName": "Machine_Stop_463",
+            "Address": "M12463",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOP_SHEET_NW_RUN_OUT_2"
+        },
+        {
+            "TagName": "Machine_Stop_464",
+            "Address": "M12464",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_NW_RUN_OUT_2"
+        },
+        {
+            "TagName": "Machine_Stop_465",
+            "Address": "M12465",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TISSUE_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_466",
+            "Address": "M12466",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_467",
+            "Address": "M12467",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONT_EAR_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_468",
+            "Address": "M12468",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_469",
+            "Address": "M12469",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACQUISITION_LAYER_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_470",
+            "Address": "M12470",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_471",
+            "Address": "M12471",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOP_SHEET_NW_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_472",
+            "Address": "M12472",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_NW_RUN_OUT_1"
+        },
+        {
+            "TagName": "Machine_Stop_473",
+            "Address": "M12473",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_MAT_RUN_OUT_OP"
+        },
+        {
+            "TagName": "Machine_Stop_474",
+            "Address": "M12474",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_MAT_RUN_OUT_DR"
+        },
+        {
+            "TagName": "Machine_Stop_513",
+            "Address": "M12513",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_MISS_TRACK_O_S_UPPER"
+        },
+        {
+            "TagName": "Machine_Stop_514",
+            "Address": "M12514",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_MISS_TRACK_D_R_UPPER"
+        },
+        {
+            "TagName": "Machine_Stop_515",
+            "Address": "M12515",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_MISS_TRACK_O_S_LOWER"
+        },
+        {
+            "TagName": "Machine_Stop_516",
+            "Address": "M12516",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PULP_MISS_TRACK_D_R_LOWER"
+        },
+        {
+            "TagName": "Machine_Stop_517",
+            "Address": "M12517",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOP_SHEET_MISS_TRACK_OP"
+        },
+        {
+            "TagName": "Machine_Stop_518",
+            "Address": "M12518",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOP_SHEET_MISS_TRACK_DR"
+        },
+        {
+            "TagName": "Machine_Stop_519",
+            "Address": "M12519",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_MISS_TRACK_OP"
+        },
+        {
+            "TagName": "Machine_Stop_520",
+            "Address": "M12520",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_MISS_TRACK_DR"
+        },
+        {
+            "TagName": "Machine_Stop_525",
+            "Address": "M12525",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "K_FRONTAL_TAPE_PATTERN_FIT_NG"
+        },
+        {
+            "TagName": "Machine_Stop_526",
+            "Address": "M12526",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "M_BACK_SHEET_PATTERN_FIT_NG"
+        },
+        {
+            "TagName": "Machine_Stop_545",
+            "Address": "M12545",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TISSUE_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_546",
+            "Address": "M12546",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_547",
+            "Address": "M12547",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONT_EAR_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_548",
+            "Address": "M12548",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_549",
+            "Address": "M12549",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACQUISITION_LAYER_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_550",
+            "Address": "M12550",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_551",
+            "Address": "M12551",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOP_SHEET_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_552",
+            "Address": "M12552",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_NW_SHAFT_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_553",
+            "Address": "M12553",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SET_VACUUM_PUMP_1_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_554",
+            "Address": "M12554",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SET_VACUUM_PUMP_2_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_555",
+            "Address": "M12555",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SET_VACUUM_PUMP_3_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_556",
+            "Address": "M12556",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SET_VACUUM_PUMP_4_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_557",
+            "Address": "M12557",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SET_VACUUM_PUMP_5_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_558",
+            "Address": "M12558",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DRAM_DRIVE_OVER_LOAD"
+        },
+        {
+            "TagName": "Machine_Stop_559",
+            "Address": "M12559",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SAP_AKISI_SENSORGORMUYOR_TEMiZLE"
+        },
+        {
+            "TagName": "Machine_Stop_560",
+            "Address": "M12560",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACRISON_SAP_AKISI_YOK"
+        },
+        {
+            "TagName": "Machine_Stop_561",
+            "Address": "M12561",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TISSUE_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_562",
+            "Address": "M12562",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_563",
+            "Address": "M12563",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONT_EAR_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_564",
+            "Address": "M12564",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_565",
+            "Address": "M12565",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACQUISITION_LAYER_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_566",
+            "Address": "M12566",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_567",
+            "Address": "M12567",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TOP_SHEET_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_568",
+            "Address": "M12568",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_NW_ACCUMEDANCER_Set_Miss"
+        },
+        {
+            "TagName": "Machine_Stop_569",
+            "Address": "M12569",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SAP_BiR_GRAM_VE_UZERi_FAZLA_GELiYOR"
+        },
+        {
+            "TagName": "Machine_Stop_570",
+            "Address": "M12570",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SAP_BiR_GRAM_VE_ALTI_AZ_GELiYOR"
+        },
+        {
+            "TagName": "Machine_Stop_577",
+            "Address": "M12577",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_1_NOT_READY"
+        },
+        {
+            "TagName": "Machine_Stop_578",
+            "Address": "M12578",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_2_NOT_READY"
+        },
+        {
+            "TagName": "Machine_Stop_579",
+            "Address": "M12579",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_3_NOT_READY"
+        },
+        {
+            "TagName": "Machine_Stop_580",
+            "Address": "M12580",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_4_NOT_READY"
+        },
+        {
+            "TagName": "Machine_Stop_581",
+            "Address": "M12581",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_5_NOT_READY"
+        },
+        {
+            "TagName": "Machine_Stop_582",
+            "Address": "M12582",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_1_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_583",
+            "Address": "M12583",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_2_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_584",
+            "Address": "M12584",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_3_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_585",
+            "Address": "M12585",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_4_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_586",
+            "Address": "M12586",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_5_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_587",
+            "Address": "M12587",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACRISON_SAP_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_588",
+            "Address": "M12588",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_6_NOT_READY"
+        },
+        {
+            "TagName": "Machine_Stop_589",
+            "Address": "M12589",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_6_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_593",
+            "Address": "M12593",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PATTERN_PRESS_ROLL_WRAP"
+        },
+        {
+            "TagName": "Machine_Stop_594",
+            "Address": "M12594",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PRESS_ROLL_WRAP"
+        },
+        {
+            "TagName": "Machine_Stop_595",
+            "Address": "M12595",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_HEAT_SEAL_ROLL_WRAP"
+        },
+        {
+            "TagName": "Machine_Stop_596",
+            "Address": "M12596",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONT_EAR_DIE_CUTTER_WRAP"
+        },
+        {
+            "TagName": "Machine_Stop_597",
+            "Address": "M12597",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MAT_CUTTER_WRAP"
+        },
+        {
+            "TagName": "Machine_Stop_598",
+            "Address": "M12598",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_ROLL_WRAP_OP"
+        },
+        {
+            "TagName": "Machine_Stop_599",
+            "Address": "M12599",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ATTACH_HEAT_SEAL_ROLL_WRAP_DR"
+        },
+        {
+            "TagName": "Machine_Stop_600",
+            "Address": "M12600",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_ROLL_WRAP_OP"
+        },
+        {
+            "TagName": "Machine_Stop_601",
+            "Address": "M12601",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_END_HEAT_SEAL_ROLL_WRAP_DR"
+        },
+        {
+            "TagName": "Machine_Stop_602",
+            "Address": "M12602",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FINAL_CUTTER_WRAP"
+        },
+        {
+            "TagName": "Machine_Stop_603",
+            "Address": "M12603",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_ROLL_WRAP_OP"
+        },
+        {
+            "TagName": "Machine_Stop_604",
+            "Address": "M12604",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_FOLDING_HEAT_SEAL_ROLL_WRAP_DR"
+        },
+        {
+            "TagName": "Machine_Stop_609",
+            "Address": "M12609",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PATTERN_PRESS_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_610",
+            "Address": "M12610",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PRESS_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_611",
+            "Address": "M12611",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_MAT_SIDE_SEAL_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_612",
+            "Address": "M12612",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_FASTENING_TAPE_CUTTER_DR_HAMMER_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_613",
+            "Address": "M12613",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_HEAT_SEAL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Machine_Stop_614",
+            "Address": "M12614",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_CUTTER_OP_HAMMER_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_615",
+            "Address": "M12615",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_DIE_CUTTER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_616",
+            "Address": "M12616",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_MAT_CUTTER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_617",
+            "Address": "M12617",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_END_SIDE_SEALER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_618",
+            "Address": "M12618",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_DIE_CUTTER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_619",
+            "Address": "M12619",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_CUFF_ATTACH_HEAT_SEALER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_620",
+            "Address": "M12620",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_CUFF_END_HEAT_SEALER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_621",
+            "Address": "M12621",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONT_EAR_CUTTER_HAMMER_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_622",
+            "Address": "M12622",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_CUTTER_HAMMER_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_623",
+            "Address": "M12623",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_CUTTER_HAMMER_ROLL_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_624",
+            "Address": "M12624",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_CUFF_FOLDING_HEAT_SEALER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_625",
+            "Address": "M12625",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_FINAL_CUTTER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_626",
+            "Address": "M12626",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_CUFF_NW_SLITTER_UNIT_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_627",
+            "Address": "M12627",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACRISON_SAP_FEED_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_628",
+            "Address": "M12628",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LOFT_CAMERA_ASIRI_REJECT_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_629",
+            "Address": "M12629",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_CAMERA_ASIRI_REJECT_ALARM"
+        },
+        {
+            "TagName": "Machine_Stop_630",
+            "Address": "M12630",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_TISSUE_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_631",
+            "Address": "M12631",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_632",
+            "Address": "M12632",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_HOT_MELT_GUN_ROLL_SWING_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_633",
+            "Address": "M12633",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_LEG_ELASTIC_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_634",
+            "Address": "M12634",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_LEG_ELASTIC_HOT_MELT_GUN_SWING_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_635",
+            "Address": "M12635",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_TOP_SHEET_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_636",
+            "Address": "M12636",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_SHEET_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_637",
+            "Address": "M12637",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_638",
+            "Address": "M12638",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_HOT_MELT_GUN_ROLL_SWING_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_639",
+            "Address": "M12639",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_640",
+            "Address": "M12640",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_HOT_MELT_GUN_ROLL_SWING_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_641",
+            "Address": "M12641",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_LOTION_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_642",
+            "Address": "M12642",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ATTACH_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_643",
+            "Address": "M12643",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ATTACH_HOT_MELT_GUN_ROLL_SWING_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_644",
+            "Address": "M12644",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_645",
+            "Address": "M12645",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ELASTIC_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_646",
+            "Address": "M12646",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ELASTIC_HOT_MELT_GUN_SWING_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_647",
+            "Address": "M12647",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_CUFF_HOT_MELT_GUN_OFF"
+        },
+        {
+            "TagName": "Machine_Stop_649",
+            "Address": "M12649",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_TISSUE_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Machine_Stop_651",
+            "Address": "M12651",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_BACK_EAR_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Machine_Stop_652",
+            "Address": "M12652",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FRONT_EAR_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Machine_Stop_653",
+            "Address": "M12653",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_SPLICE_Sensor"
+        },
+        {
+            "TagName": "Machine_Stop_654",
+            "Address": "M12654",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Machine_Stop_655",
+            "Address": "M12655",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_BACK_SHEET_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Machine_Stop_656",
+            "Address": "M12656",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_TOP_SHEET_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Machine_Stop_657",
+            "Address": "M12657",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_CUFF_NW_SPLICE_Sensor"
+        },
+        {
+            "TagName": "Machine_Stop_658",
+            "Address": "M12658",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_OP_SPLICE_Sensor"
+        },
+        {
+            "TagName": "Machine_Stop_659",
+            "Address": "M12659",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_DR_SPLICE_Sensor"
+        },
+        {
+            "TagName": "Machine_Stop_664",
+            "Address": "M12664",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_GOOD_COUNT_SENSORABNORMAL"
+        },
+        {
+            "TagName": "Machine_Stop_665",
+            "Address": "M12665",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "STACKER_MACHINE_NOT_READY"
+        }
+    ],
+    "FireSensorKamera": [
+        {
+            "TagName": "Check_Product_Reject_Count",
+            "Address": "R04054",
+            "DataType": "Word",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TEK_PAD_NUMUNE"
+        },
+        {
+            "TagName": "Reject_Counter_Sum_Total_Pad",
+            "Address": "R30400",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100"
+        },
+        {
+            "TagName": "Reject_Total_item001",
+            "Address": "R30002",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LOW_SPEED_REJECT"
+        },
+        {
+            "TagName": "Reject_Total_item002",
+            "Address": "R30004",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "STACKER_MACHINE_NOT_READY"
+        },
+        {
+            "TagName": "Reject_Total_item003",
+            "Address": "R30006",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PATTERN_PRESS_ROLL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item004",
+            "Address": "R30008",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PRESS_ROLL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item005",
+            "Address": "R30010",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_MAT_SIDE_SEAL_ROLL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item006",
+            "Address": "R30012",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_FASTENING_TAPE_CUTTER_DR_HAMMER_ROLL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item007",
+            "Address": "R30014",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_HEAT_SEAL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item008",
+            "Address": "R30016",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_CUTTER_OP_HAMMER_ROLL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item009",
+            "Address": "R30018",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_DIE_CUTTER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item010",
+            "Address": "R30020",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_MAT_CUTTER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item011",
+            "Address": "R30022",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_END_SIDE_SEALER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item012",
+            "Address": "R30024",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_DIE_CUTTER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item013",
+            "Address": "R30026",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_CUFF_ATTACH_HEAT_SEALER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item014",
+            "Address": "R30028",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_CUFF_END_HEAT_SEALER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item015",
+            "Address": "R30030",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "M_BACK_SHEET_FEED"
+        },
+        {
+            "TagName": "Reject_Total_item016",
+            "Address": "R30032",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_CUTTER_HAMMER_ROLL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item017",
+            "Address": "R30034",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_CUTTER_HAMMER_ROLL_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item018",
+            "Address": "R30036",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_CUFF_FOLDING_HEAT_SEALER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item019",
+            "Address": "R30038",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_FINAL_CUTTER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item020",
+            "Address": "R30040",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_CUFF_NW_SLITTER_UNIT_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item021",
+            "Address": "R30042",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACRISON_SAP_FEED_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item034",
+            "Address": "R30068",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_TISSUE_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item035",
+            "Address": "R30070",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item036",
+            "Address": "R30072",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_HOT_MELT_GUN_ROLL_SWING_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item037",
+            "Address": "R30074",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_LEG_ELASTIC_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item038",
+            "Address": "R30076",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_LEG_ELASTIC_HOT_MELT_GUN_SWING_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item039",
+            "Address": "R30078",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_TOP_SHEET_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item040",
+            "Address": "R30080",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_SHEET_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item041",
+            "Address": "R30082",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item042",
+            "Address": "R30084",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_HOT_MELT_GUN_ROLL_SWING_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item043",
+            "Address": "R30086",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item044",
+            "Address": "R30088",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_HOT_MELT_GUN_ROLL_SWING_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item045",
+            "Address": "R30090",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_LOTION_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item046",
+            "Address": "R30092",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ATTACH_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item047",
+            "Address": "R30094",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ATTACH_HOT_MELT_GUN_ROLL_SWING_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item048",
+            "Address": "R30096",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item049",
+            "Address": "R30098",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ELASTIC_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item050",
+            "Address": "R30100",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_ELASTIC_HOT_MELT_GUN_SWING_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item051",
+            "Address": "R30102",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_CUFF_HOT_MELT_GUN_OFF_NG"
+        },
+        {
+            "TagName": "Reject_Total_item065",
+            "Address": "R30130",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_AQL"
+        },
+        {
+            "TagName": "Reject_Total_item066",
+            "Address": "R30132",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_FRONT_EAR_OP"
+        },
+        {
+            "TagName": "Reject_Total_item067",
+            "Address": "R30134",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_FRONT_EAR_DR"
+        },
+        {
+            "TagName": "Reject_Total_item068",
+            "Address": "R30136",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_BACK_EAR_OP"
+        },
+        {
+            "TagName": "Reject_Total_item069",
+            "Address": "R30138",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_BACK_EAR_DR"
+        },
+        {
+            "TagName": "Reject_Total_item070",
+            "Address": "R30140",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_FASTENING_TAPE_OP"
+        },
+        {
+            "TagName": "Reject_Total_item071",
+            "Address": "R30142",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_FASTENING_TAPE_DR"
+        },
+        {
+            "TagName": "Reject_Total_item072",
+            "Address": "R30144",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CAMERA_PULP_KATLI_YOK"
+        },
+        {
+            "TagName": "Reject_Total_item081",
+            "Address": "R30162",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PULP_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item082",
+            "Address": "R30164",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_TISSUE_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item084",
+            "Address": "R30168",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_BACK_EAR_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item085",
+            "Address": "R30170",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FRONT_EAR_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item086",
+            "Address": "R30172",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item087",
+            "Address": "R30174",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item088",
+            "Address": "R30176",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_BACK_SHEET_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item089",
+            "Address": "R30178",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_TOP_SHEET_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item090",
+            "Address": "R30180",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_CUFF_NW_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item092",
+            "Address": "R30184",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_OP_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item093",
+            "Address": "R30186",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_DR_SPLICE"
+        },
+        {
+            "TagName": "Reject_Total_item097",
+            "Address": "R30194",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_TISSUE_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item099",
+            "Address": "R30198",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "B_BACK_EAR_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item100",
+            "Address": "R30200",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FRONT_EAR_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item101",
+            "Address": "R30202",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FRONTAL_TAPE_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item102",
+            "Address": "R30204",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item103",
+            "Address": "R30206",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_BACK_SHEET_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item104",
+            "Address": "R30208",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_TOP_SHEET_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item105",
+            "Address": "R30210",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "G_CUFF_NW_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item107",
+            "Address": "R30214",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_OP_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item108",
+            "Address": "R30216",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_DR_SPLICE_SENSOR"
+        },
+        {
+            "TagName": "Reject_Total_item113",
+            "Address": "R30226",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_OP_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item114",
+            "Address": "R30228",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_DR_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item115",
+            "Address": "R30230",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_OP_MISS_FOLDING"
+        },
+        {
+            "TagName": "Reject_Total_item116",
+            "Address": "R30232",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "C_FASTENING_TAPE_DR_MISS_FOLDING"
+        },
+        {
+            "TagName": "Reject_Total_item117",
+            "Address": "R30234",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_OP_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item118",
+            "Address": "R30236",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_EAR_DR_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item119",
+            "Address": "R30238",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_ABSORBENT_CUT_DETECT"
+        },
+        {
+            "TagName": "Reject_Total_item120",
+            "Address": "R30240",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_KATLI_VEYA_YOK_OS"
+        },
+        {
+            "TagName": "Reject_Total_item121",
+            "Address": "R30242",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_KATLI_VEYA_YOK_DS"
+        },
+        {
+            "TagName": "Reject_Total_item122",
+            "Address": "R30244",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "E_FIRST_FOLDING"
+        },
+        {
+            "TagName": "Reject_Total_item123",
+            "Address": "R30246",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_SECOND_FOLDING"
+        },
+        {
+            "TagName": "Reject_Total_item124",
+            "Address": "R30248",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_OP_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item125",
+            "Address": "R30250",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "F_ACQUISITION_LAYER_DR_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item126",
+            "Address": "R30252",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_OP_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item127",
+            "Address": "R30254",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_FRONT_EAR_DR_MISS_TRANSCRIPTION"
+        },
+        {
+            "TagName": "Reject_Total_item129",
+            "Address": "R30258",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PULP_MISS_TRACK_O_S_UPPER"
+        },
+        {
+            "TagName": "Reject_Total_item130",
+            "Address": "R30260",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PULP_MISS_TRACK_D_R_UPPER"
+        },
+        {
+            "TagName": "Reject_Total_item131",
+            "Address": "R30262",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PULP_MISS_TRACK_O_S_LOWER"
+        },
+        {
+            "TagName": "Reject_Total_item132",
+            "Address": "R30264",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "A_PULP_MISS_TRACK_D_R_LOWER"
+        },
+        {
+            "TagName": "Reject_Total_item133",
+            "Address": "R30266",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_TOP_SHEET_MISS_TRACK_OP"
+        },
+        {
+            "TagName": "Reject_Total_item134",
+            "Address": "R30268",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_TOP_SHEET_MISS_TRACK_DR"
+        },
+        {
+            "TagName": "Reject_Total_item135",
+            "Address": "R30270",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_SHEET_MISS_TRACK_OP"
+        },
+        {
+            "TagName": "Reject_Total_item136",
+            "Address": "R30272",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "D_BACK_SHEET_MISS_TRACK_DR"
+        },
+        {
+            "TagName": "Reject_Total_item141",
+            "Address": "R30282",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "K_FRONTAL_TAPE_PATTERN_FIT_NG_REJECT"
+        },
+        {
+            "TagName": "Reject_Total_item142",
+            "Address": "R30284",
+            "DataType": "DWord",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "M_BACK_SHEET_PATTERN_FIT_NG_REJECT"
+        }
+    ],
+    "Warning": [
+        {
+            "TagName": "Warning_001",
+            "Address": "M12801",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SELULOZ_SOL_BOBiN_AZALDI"
+        },
+        {
+            "TagName": "Warning_002",
+            "Address": "M12802",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SELULOZ_SAG_BOBiN_AZALDI"
+        },
+        {
+            "TagName": "Warning_003",
+            "Address": "M12803",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "TISSUE_SPLICE_HAZIR_DEGiL"
+        },
+        {
+            "TagName": "Warning_004",
+            "Address": "M12804",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_EAR_SPLICE_HAZIR_DEGIL"
+        },
+        {
+            "TagName": "Warning_005",
+            "Address": "M12805",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONT_EAR_SPLICE_HAZIR_DEGIL"
+        },
+        {
+            "TagName": "Warning_006",
+            "Address": "M12806",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRONTAL_TAPE_SPLICE_HAZIR_DEGiL"
+        },
+        {
+            "TagName": "Warning_007",
+            "Address": "M12807",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "AQL_SPLICE_HAZIR_DEGIL"
+        },
+        {
+            "TagName": "Warning_008",
+            "Address": "M12808",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BACK_SHEET_SPLICE_HAZIR_DEGIL"
+        },
+        {
+            "TagName": "Warning_009",
+            "Address": "M12809",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NW_TOP_SHEET_SPLICE_HAZIR_DEGIL"
+        },
+        {
+            "TagName": "Warning_010",
+            "Address": "M12810",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "NW_FOR_CUFFS_SPLICE_HAZIR_DEGIL"
+        },
+        {
+            "TagName": "Warning_011",
+            "Address": "M12811",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Material_Spare_DECREASE"
+        },
+        {
+            "TagName": "Warning_012",
+            "Address": "M12812",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_OP_EXPIRING"
+        },
+        {
+            "TagName": "Warning_013",
+            "Address": "M12813",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FASTENING_TAPE_DR_EXPIRING"
+        },
+        {
+            "TagName": "Warning_014",
+            "Address": "M12814",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_015",
+            "Address": "M12815",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LEG_ELASTIC_EXPIRING"
+        },
+        {
+            "TagName": "Warning_016",
+            "Address": "M12816",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "CUFF_ELASTIC_EXPIRING"
+        },
+        {
+            "TagName": "Warning_017",
+            "Address": "M12817",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ACRISON_SAP_REFILL_CONVEYOR"
+        },
+        {
+            "TagName": "Warning_018",
+            "Address": "M12818",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "DIRECT_FIBERIZER_MOTOR_ROTATING"
+        },
+        {
+            "TagName": "Warning_019",
+            "Address": "M12819",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_020",
+            "Address": "M12820",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_021",
+            "Address": "M12821",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "LOSYON_AKISI_YOK"
+        },
+        {
+            "TagName": "Warning_022",
+            "Address": "M12822",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "ED_VAN_Hopper_Level_High"
+        },
+        {
+            "TagName": "Warning_023",
+            "Address": "M12823",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_024",
+            "Address": "M12824",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_025",
+            "Address": "M12825",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Aux_Manual_mode"
+        },
+        {
+            "TagName": "Warning_026",
+            "Address": "M12826",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "HM_Simuiation_Mode_LP"
+        },
+        {
+            "TagName": "Warning_027",
+            "Address": "M12827",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Dry_run_mode"
+        },
+        {
+            "TagName": "Warning_028",
+            "Address": "M12828",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Alarm_Pass_COP_GOT"
+        },
+        {
+            "TagName": "Warning_029",
+            "Address": "M12829",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_030",
+            "Address": "M12830",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_031",
+            "Address": "M12831",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_032",
+            "Address": "M12832",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SMA_Servo_POSITION_ERROR"
+        },
+        {
+            "TagName": "Warning_033",
+            "Address": "M12833",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_TISSUE"
+        },
+        {
+            "TagName": "Warning_034",
+            "Address": "M12834",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_BACK_EAR"
+        },
+        {
+            "TagName": "Warning_035",
+            "Address": "M12835",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_FRONT_EAR"
+        },
+        {
+            "TagName": "Warning_036",
+            "Address": "M12836",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_FRONTAL_TAPE"
+        },
+        {
+            "TagName": "Warning_037",
+            "Address": "M12837",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_ACQUISITION_LAYER"
+        },
+        {
+            "TagName": "Warning_038",
+            "Address": "M12838",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_BACK_SHEET"
+        },
+        {
+            "TagName": "Warning_039",
+            "Address": "M12839",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_TOP_SHEET_NW"
+        },
+        {
+            "TagName": "Warning_040",
+            "Address": "M12840",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_CUFF_NW"
+        },
+        {
+            "TagName": "Warning_041",
+            "Address": "M12841",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_FASTENING_TAPE_OP"
+        },
+        {
+            "TagName": "Warning_042",
+            "Address": "M12842",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SPLICE_DOOR_OPEN_FASTENING_TAPE_DR"
+        },
+        {
+            "TagName": "Warning_043",
+            "Address": "M12843",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_044",
+            "Address": "M12844",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_045",
+            "Address": "M12845",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_046",
+            "Address": "M12846",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_047",
+            "Address": "M12847",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_048",
+            "Address": "M12848",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_049",
+            "Address": "M12849",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "STACKER_Not_Ready"
+        },
+        {
+            "TagName": "Warning_050",
+            "Address": "M12850",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "BAGGER_Not_Ready"
+        },
+        {
+            "TagName": "Warning_051",
+            "Address": "M12851",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_1_TANK_LEVEL_LOW"
+        },
+        {
+            "TagName": "Warning_052",
+            "Address": "M12852",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_2_TANK_LEVEL_LOW"
+        },
+        {
+            "TagName": "Warning_053",
+            "Address": "M12853",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_3_TANK_LEVEL_LOW"
+        },
+        {
+            "TagName": "Warning_054",
+            "Address": "M12854",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_4_TANK_LEVEL_LOW"
+        },
+        {
+            "TagName": "Warning_055",
+            "Address": "M12855",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "MELTER_5_TANK_LEVEL_LOW"
+        },
+        {
+            "TagName": "Warning_056",
+            "Address": "M12856",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_057",
+            "Address": "M12857",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_058",
+            "Address": "M12858",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_059",
+            "Address": "M12859",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "PANEL_COOLING_UNIT_Fault"
+        },
+        {
+            "TagName": "Warning_060",
+            "Address": "M12860",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_061",
+            "Address": "M12861",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_062",
+            "Address": "M12862",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_063",
+            "Address": "M12863",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "SAFETY_DOOR_OP_DR_BYPASS_MP_KEY"
+        },
+        {
+            "TagName": "Warning_064",
+            "Address": "M12864",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "Spare"
+        },
+        {
+            "TagName": "Warning_065",
+            "Address": "M12865",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_066",
+            "Address": "M12866",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_067",
+            "Address": "M12867",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_068",
+            "Address": "M12868",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_069",
+            "Address": "M12869",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_070",
+            "Address": "M12870",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_071",
+            "Address": "M12871",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_072",
+            "Address": "M12872",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_073",
+            "Address": "M12873",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_074",
+            "Address": "M12874",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_075",
+            "Address": "M12875",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_076",
+            "Address": "M12876",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_077",
+            "Address": "M12877",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_078",
+            "Address": "M12878",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_079",
+            "Address": "M12879",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_OP_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_080",
+            "Address": "M12880",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_081",
+            "Address": "M12881",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_082",
+            "Address": "M12882",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_083",
+            "Address": "M12883",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_084",
+            "Address": "M12884",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_085",
+            "Address": "M12885",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_086",
+            "Address": "M12886",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_087",
+            "Address": "M12887",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_088",
+            "Address": "M12888",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_089",
+            "Address": "M12889",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_090",
+            "Address": "M12890",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_091",
+            "Address": "M12891",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_092",
+            "Address": "M12892",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_093",
+            "Address": "M12893",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        },
+        {
+            "TagName": "Warning_094",
+            "Address": "M12894",
+            "DataType": "Boolean",
+            "RespectDataType": "1",
+            "ClientAccess": "R/W",
+            "ScanRate": "100",
+            "Description": "FRAME_DR_SAFETY_DOOR_INPUT_CANCEL_LP_GOT"
+        }
+    ]
+}
